@@ -1,0 +1,287 @@
+@font-face{
+  font-family:myfont;
+  src:url(components/Morning.otf);
+}
+
+
+*{
+  text-decoration: none;
+}
+.topnav{
+  background-color:rgb(8, 8, 71); padding-right:15px;  max-width:1500px;
+}
+.navdiv{
+  display:flex; align-items:center; justify-content:space-between;
+}
+.logo{
+  font-size:35px; 
+  font-weight:600;
+  border-left: 0;
+  color:white;
+  padding-left: 5px;
+  padding-right: 850px;
+}
+li{
+  list-style:none; display:inline-block;
+}
+li a{
+  color:white ; font-size:18px  ; margin-right:25px;
+}
+.container{
+  background-color:pink;
+
+}
+.searchcont{
+  
+  display:inline-flex;
+  width: 200px;
+}
+
+/* .search-button{
+  width:15;
+  height:15;
+} */
+
+.formControl{
+  height: 30px;
+  width: 220px;
+  border: 3px;
+  border-radius:5px ;
+  border-color: white;
+  background-color:white;
+  color: black;
+}
+
+.downContent{
+  
+  display: inline-flex;
+  background-color:rgb(13, 13, 81);
+}
+.leftimage{
+  padding-top: 15px;
+  padding-left:88px;
+  padding-right: 15px;
+  
+}
+
+.rightimage{
+  padding: 15px;
+}
+.right2image{
+  padding: 15px;
+}
+.right3image{
+  padding-top: 15px;
+  padding-left:15px;
+  padding-right: 95px;
+  
+}
+.offerzone{
+  background-image: url("./Luxury2.png");
+  background-repeat: 2;
+}
+.slideshow{
+  
+  width:912px;
+  height:500px;
+  position: relative;
+  padding: 110px;
+  padding-top: 0px;
+  background-color: rgb(254, 254, 218);
+  padding-right:460px
+  /* background-color: aqua; */
+}
+.ashi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(250, 243, 243);
+}
+
+.ashi span{
+  width:20px;
+  height:5px;
+  background-color:rgb(254, 254, 218);
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 2px 2px black;
+}
+.description{
+  border-top: 30px;
+  width: 600px;
+  position:absolute;
+  z-index: 900;
+  color: rgb(41, 43, 72);
+  top: 20%;
+  padding-top:330px;
+  padding-left: 540px;
+  
+}
+.myselect span{
+  background-color: aliceblue;
+
+}
+
+.description h1{
+  font-size: 46;
+}
+
+.formControl{
+  border-color: white;
+
+}
+
+.Trialbutton{
+  background-color: rgb(246, 251, 226); 
+  width: 250px;
+  height: auto;
+  margin-right:20px;
+  padding: 0%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.trialbutton{
+ background-color: rgb(246, 251, 226); 
+ height:25px;
+ width: 250px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:x-large;
+text-align: center;
+}
+
+.TrialPage{
+  height: 680px;
+  font-family: myfont;
+  font-size: large;
+  color: #040285f7;
+  background-color: rgb(254, 244, 231);
+  
+}
+
+.mainform{
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(255, 254, 199);
+ border: 2px solid black;
+  /* padding: 10px; */
+}
+.mybody{
+  padding: 8px;
+  color: black;
+  background-color: rgb(255, 254, 196);
+  font-size: large;
+  /* font-family: myfont; */
+}
+.my12details{
+  border:2px solid black;
+
+}
+.my10details{
+  border:2px solid black;
+
+}
+.textbox{
+  padding: 5px;
+  padding-right: 20px;
+  display: flex;
+  padding-right: 10px;
+  font-size: large;
+}
+.classtext{
+  width: 300px;
+  height: 20px;
+  font-size: large;
+}
+.formheading{
+  /* font-family:myfont; */
+  font-size:xxx-large;
+  font-weight: 500;
+  font-style: italic;
+  color:rgb(9, 9, 94);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.err{
+  color: red;
+  padding: 0%;
+  border: 0px;
+}
+.tenalign,twelvealign{
+  display: flex;
+  padding-bottom: 15px;
+ 
+  
+}
+.twelvealign{
+  display: flex;
+  padding-bottom: 15px;
+ 
+  
+}
+.family{
+  display: flex;
+
+}
+#father{
+  padding-left: 45px;
+}
+.submitbutton{
+  background-color: rgb(66, 66, 251);
+  width: 150px;
+  color:white;
+  height: 40px;
+  font-size: larger;
+  font-weight: 600;
+  position: center;
+}
+.ui_message_success{
+  background-color: rgb(52, 243, 38);
+  width: 300px;
+  
+  font-size: larger;
+  border: 0px;
+  padding: 20px;
+  padding-left: 100px;
+  border: 2px solid rgb(20, 16, 16);
+  
+}
+
+.myselect select::-ms-expand{
+  display: none;
+
+}
+.myselect::after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+}
+.myselect select option {
+  background-color: white;
+  color: #333;
+}
+.myselect select {
+  width: 40%;
+  
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none; /* Hide default arrow in some browsers */
+  cursor: pointer;
+}
+
+.belowmain{
+  width: 1470px;
+  height:50px;
+  background-color: rgb(254, 254, 218);
+
+}
+
+
+
